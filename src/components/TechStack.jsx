@@ -4,17 +4,17 @@ import SectionTitle from "./SectionTitle";
 import techData from "../data/techData";
 import TechItem from "./TechItem";
 
-const TechStack = () =>{
-    return(
+const TechStack = () => {
+    return (
         <div className="py-12">
-            <SectionTitle 
+            <SectionTitle
                 data={"A brief list of tech goodies I've been using"}
                 id={"tech"}
             />
 
-            <div className="grid grid-cols-3 md:grid-cols-5  lg:grid-cols-10 gap-10 lg:animate-bounce my-20 duration-200 text-center">
+            <div className="grid grid-cols-3 md:grid-cols-5  lg:grid-cols-10 gap-10  my-20 duration-200 text-center">
                 {techData.map((tech) => (
-                    <TechItem 
+                    <TechItem
                         key={tech.title}
                         title={tech.title}
                         icon={tech.icon}
