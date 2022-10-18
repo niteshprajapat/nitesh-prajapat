@@ -1,11 +1,11 @@
 import React from "react";
 
 
-import {FaInstagram, FaTwitter, FaDribbble, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaDribbble, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-const HeroSection = () =>{
-    return(
-        <div data-aos="fade-down" data-aos-duration='800'  className="flex flex-col justify-center items-center  w-full h-screen">
+const HeroSection = () => {
+    return (
+        <div data-aos="fade-down" data-aos-duration='800' className="flex flex-col justify-center items-center  w-full h-screen">
             <div className="text-center max-w-[70%]">
 
                 <h3 className="uppercase text-xs md:text-sm  font-semibold text-gray-700 dark:text-gray-400 tracking-[0.5rem]">hi, my name is </h3>
@@ -22,33 +22,33 @@ const HeroSection = () =>{
 
                 <p className="text-sm font-normal text-gray-700 dark:text-gray-400 tracking-[0.1rem] my-5"> A normal human b3ing who love's to code </p>
 
-                <div  className="flex justify-center items-center gap-10 mt-16 text-black  dark:text-gray-300 ">
+                <div className="flex justify-center items-center gap-10 mt-16 text-black  dark:text-gray-300 ">
 
 
                     <a href="https://github.com/niteshprajapat/" target={"_blank"} rel="noreferrer" role={"button"}>
                         <FaGithub size={25} className="font-bold hover:-translate-y-3 duration-300 ease-in cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
                     </a>
 
-                    
 
-                    <a href="https://instagram.com/niteshprajapat7918" target={"_blank"} rel="noreferrer" role={"button"}>
+
+                    {/* <a href="https://instagram.com/niteshprajapat7918" target={"_blank"} rel="noreferrer" role={"button"}>
                         <FaInstagram size={25} className="font-bold hover:-translate-y-3 duration-300 ease-in cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
-                    </a>
+                    </a> */}
 
                     <a href="https://twitter.com/nitesh7918" target={"_blank"} rel="noreferrer" role={"button"}>
                         <FaTwitter size={25} className="font-bold hover:-translate-y-3 duration-300 ease-in cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
                     </a>
 
                     <a href="https://www.linkedin.com/in/nitesh-prajapat-429a811a0" target={"_blank"} rel="noreferrer" role={"button"}>
-                        <FaLinkedinIn size={25}  className="font-bold hover:-translate-y-3 duration-300 ease-in cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
+                        <FaLinkedinIn size={25} className="font-bold hover:-translate-y-3 duration-300 ease-in cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
                     </a>
 
-                    <a href="https://dribbble.com/niteshprajapat7918/" target={"_blank"} rel="noreferrer" role={"button"}>
+                    {/* <a href="https://dribbble.com/niteshprajapat7918/" target={"_blank"} rel="noreferrer" role={"button"}>
                         <FaDribbble size={25}  className="font-bold hover:-translate-y-3 duration-300 ease-in  cursor-pointer hover:fill-gray-600 dark:hover:fill-sky-700" />
-                    </a>
+                    </a> */}
 
                 </div>
-                
+
             </div>
         </div>
     )
